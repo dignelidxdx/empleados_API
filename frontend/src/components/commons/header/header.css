@@ -1,0 +1,44 @@
+form.form-inline {
+    margin-right: 30vw;
+}
+
+button.btn.btn-outline-success{
+    margin-right: 3vw;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    background: #232526;
+    
+}
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9); 
+}
+.NavDropdown.Item{
+color: white;
+}
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #0acf38;
+}
+.dropdown-menu.show {
+    position: absolute;
+    background-color: rgb(247, 247, 97);
+    height:30vh;
+    width:20vw;
+    -webkit-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    -moz-transform:rotate(6deg);
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+}
+.header-pin-image{
+    position: relative;
+    width: 6vw;
+    height: 9vh;
+
+}

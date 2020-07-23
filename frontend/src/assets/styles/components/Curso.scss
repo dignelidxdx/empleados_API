@@ -1,0 +1,53 @@
+@import "../Vars.scss";
+@import "../Media.scss";
+
+.Curso-Usuario {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../img/pizarron.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Curso-container {
+    position: relative;
+}
+.Curso-fondo img {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.Curso-container-img img {
+    text-align: center;
+    width: 300px;
+}
+.Curso-container-name {
+    color: white;
+    margin: 5%;
+}
+.Curso-container-link {
+    margin-top: 50px;
+}
+.Curso-container-link a {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+.Curso-learn {
+    margin: 5%;
+}
+.Curso-row-intern {
+    margin-top: 150px;
+    border: 1px solid black;
+}
+.Curso-row-intern ul {
+    list-style: none;    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.Curso-row-intern ul li  {
+    margin-top: 20px;
+}

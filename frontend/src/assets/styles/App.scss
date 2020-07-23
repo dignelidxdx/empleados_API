@@ -1,0 +1,33 @@
+body {
+  font-family: "Shadows";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  background: -webkit-linear-gradient(
+    to top,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@font-face {
+  font-family: "Shadows";
+  src: url("../fonts/ShadowsIntoLight-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Shadows";
+  src: url("../fonts/ShadowsIntoLight-Regular.ttf");
+}
+
+.Home {
+  margin-top: 10%;
+}

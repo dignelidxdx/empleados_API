@@ -1,0 +1,82 @@
+.Curso-background {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+.Curso-background img {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    width: 100vw;
+    opacity: 0.75;
+    z-index: -2;
+}
+.Curso-title h4 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.Curso-container .Curso-column img {
+    padding: 0px;
+    width: 100%;
+}
+.Curso-container .Curso-column-2 img {
+    padding: 0px;
+    width: 100%;
+}
+
+.Curso-column-item {
+    display: flex;
+    justify-content: space-around;
+    transform: rotate(-8deg);
+}
+.Curso-column-item-2 {
+    display: flex;
+    justify-content: space-around;
+    transform: rotate(-3deg);
+}
+.Curso-column-2, .Curso-column {
+    position: relative;
+    margin-top: 60px;
+}
+.Curso-column-container, .Curso-column-container-2 {
+    position: absolute;
+    z-index: 100;
+    margin-top: 40px;
+    margin-left: 40px;
+    width:50%;
+}
+.Curso-column-container img, .Curso-column-container-2 img {
+    height: 50px;
+    width: 30px;
+    margin-left: 10px;
+    transform: rotate(-9deg);
+}
+.Curso-column, .Curso-column-2 {
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    width:100%;
+    
+}
+.Curso-column-2 {    
+    transform: rotate(30deg);
+}
+.Curso-column:hover {
+    webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25) rotate(20deg);
+}
+.Curso-column-2:hover {
+    webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    
+}

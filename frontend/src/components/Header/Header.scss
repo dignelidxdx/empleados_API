@@ -1,0 +1,156 @@
+@import "../../assets/styles/Vars.scss";
+@import "../../assets/styles/Media.scss";
+
+.Header {
+  position:fixed;
+   top:0;
+   z-index: 1000;
+   width: 100vw;
+    transition: all .5s ease-in-out;
+    padding: 10px;
+    background-color: $white-color;
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+.Header-buscador {
+  width: 300px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $background-color;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0px 65px;
+  background:rgba(0, 0, 0, 0.041);
+}
+.Header-buscador:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 270px;
+  height: 50px;
+  
+ }
+::placeholder {
+  color: $background-color; }
+
+.Header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure {
+    margin: 0;
+}
+.Header ol {
+    display: flex;
+    height: inherit;
+  }
+.Header ol li {
+    height: inherit;
+  }
+.Header-logo {
+    display: flex;
+    justify-content: space-around;
+    animation:lsdGrid 1.5s ease-in-out;  
+}
+  .Header-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .Header-menu ul {
+    display: flex;
+    text-align: center;
+   }
+   .Header-menu ul li {     
+    list-style: none;
+   }
+  
+  .Header-menu li a {
+    color: $background-color;
+    border: 1px solid $background-color;
+    border-radius: 5%;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 20px;
+   }
+  
+  .Header-menu li a:hover {
+    transition: 0.2s ease;
+    color: $white-color;
+    background: $background-color;
+  }
+
+.Header_toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header-button:focus {
+    outline: none;
+}
+.Header_toggle-button_line {
+    width: 30px;
+    height: 2px;
+    background: $background-color;
+    display: none;
+}
+
+
+@keyframes lsdGrid {  
+    0% {        
+      opacity: 0;   
+    }  
+    50% {
+    }
+    100% {
+      opacity: 1;      
+    } 
+  }
+
+@media only screen and (max-width: 769px) {
+    
+    .Header {
+        padding: 0;
+        width: 100%;
+    }
+    .Header-menu {
+        display: none;
+    }
+    .Header-container {
+        justify-content: space-between;
+    }
+    .Header-logo {
+        padding: 0;
+        margin: 0 25px;
+
+    }
+    .Header-buscador {
+      display: none;
+    }
+    .Header_toggle-button_line {
+        display: block;
+    }
+	
+}

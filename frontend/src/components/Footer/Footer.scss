@@ -1,0 +1,87 @@
+@import "../../assets/styles/Vars.scss";
+
+.Footer {
+    background: #232526;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.Footer--principal {
+    display: flex;
+    border-top: 1px solid #ebebeb;
+    box-shadow: darkgrey; 
+}
+.Footer-container {
+    display: flex;
+}  
+.nav--Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+.nav--Footer p {
+    color: $letter-color;
+}
+.logo--Footer {
+    margin: 0 20px;
+}
+.Footer-design ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer-design ul li {
+    list-style: none;
+    margin-right: 50px; 
+}
+.Footer-design ul a {
+    text-decoration: none;
+    color: $letter-color;
+    font-weight: 700; 
+}
+.Footer-design ul a:hover {
+    text-decoration: underline;
+}
+.logo--Footer img {
+    width: 60px;
+    border-radius: 50%;
+}
+.Footer-design {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    
+
+    .nav--Footer a {
+        font-size: 12px;
+    }
+    .nav--Footer ul li {
+        margin-right: 10px; }
+    .logo--Footer {
+        text-align: center;
+    }
+    .logo--Footer img {
+        border-radius: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    .Footer-container {
+        display: block;
+    
+        padding-top: 10px;
+    } 
+	
+}
+@media only screen and (max-width: 375px) {
+    
+
+    .nav--Footer {
+        display: block;;
+    }
+	
+}
