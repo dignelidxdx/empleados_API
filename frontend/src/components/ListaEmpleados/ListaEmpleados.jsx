@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import "../../assets/styles/App.scss";
 
 const ListaEmpleados = ({nombre, edad, sueldo}) => {
@@ -24,4 +25,11 @@ const ListaEmpleados = ({nombre, edad, sueldo}) => {
     </section>
   );
 };
+
+ListaEmpleados.propTypes = {
+    nombre: PropTypes.string,
+    edad: PropTypes.number,
+    sueldo: PropTypes.number,
+}
+
 export default ListaEmpleados;

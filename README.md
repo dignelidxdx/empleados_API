@@ -1,3 +1,9 @@
+# Proyecto ReactJS Hooks, Redux and Router con Backend usando Java y Springboot 
+
+En este proyecto se reutilizo proyectos anteriores que estaban por separado y se combino para la práctica de la integracion, transmisión y el consumo de una API con un contexto de empleadas.
+
+En los siguientes puntos explicare como empecé el proyecto Frontend:
+
 # Pasos para crear un proyecto Frontend con React y Webpack
 
 1. crear directorio luego entrar
@@ -69,7 +75,6 @@ Instalación de ESLint:
 ``` npm install --save-dev eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y ```
 
 Podemos configurar las reglas de ESLint en el archivo .eslintrc.
-
 
 # Cuando hagan clone, trabajarle el proyecto en otra rama distinta con:
 
